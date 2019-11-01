@@ -49,7 +49,7 @@ https://zenodo.org/record/3525366
 
 ## Test data in test/
 
-* wmt: newstest 2017
+* wmt: newstest 2018
 * ost: heldout data from OpenSubtitles (disjoint from dev)
 
 The data sets are provided in different formats:

@@ -69,6 +69,7 @@ Note that different versions of Python might result in the wrong way of re-order
 
 The subtitle data set has also been used in the following publication:
 
+```
 @inproceedings{tiedemann-scherrer-2017-neural,
     title = "Neural Machine Translation with Extended Context",
     author = {Tiedemann, J{\"o}rg  and
@@ -82,7 +83,7 @@ The subtitle data set has also been used in the following publication:
     doi = "10.18653/v1/W17-4811",
     pages = "82--92",
 }
-
+```
 
 
 ## License

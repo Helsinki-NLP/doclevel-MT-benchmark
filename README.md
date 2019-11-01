@@ -1,11 +1,12 @@
 
 # Data sets for document-level MT
 
-This release contains data sets for experiments with document-level machine translation. The data sets have been used in previous studies and provided here for replicability and comparison with other systems. The data sets are taken from the English-German news translation task at WMT 2019 and the English-German bitext in the OpenSubtitles collection v2016 from OPUS. All data sets are sentence aligned with corresponding lines being aligned to each other. Document boundaries are marked with emtpy lines (on both sides of the parallel corpus).
+This release contains data sets for experiments with document-level machine translation. The data sets have been used in previous studies and provided here for replicability and comparison with other systems. The data sets are taken from the English-German news translation task at WMT 2019 and the English-German bitext in the OpenSubtitles collection v2016 from OPUS. All data sets are sentence aligned with corresponding lines being aligned to each other. Document boundaries are marked with empty lines (on both sides of the parallel corpus).
 
 The data set has been used in the following publication:
 
-@inproceedings{tiedemann-scherrer-2019-neural,
+```
+@inproceedings{scherrer-tiedemann-loaiciga-2019,
     title = "Analysing concatenation approaches to document-level NMT in two different domains",
     author = {Scherrer, Yves and Tiedemann, J{\"o}rg and Lo{\'a}iciga, Sharid},
     booktitle = "Proceedings of the Third Workshop on Discourse in Machine Translation",
@@ -14,6 +15,7 @@ The data set has been used in the following publication:
     address = "Hong-Kong",
     publisher = "Association for Computational Linguistics",
 }
+```
 
 Please, cite that paper if you use the data set in your own work.
 
@@ -24,8 +26,8 @@ Please, cite that paper if you use the data set in your own work.
 Development and test data are available from github:
 https://github.com/Helsinki-NLP/doclevel-MT-benchmark
 
-Training data are packaged and distributed via Zenodo
-
+Training data are packaged and distributed via Zenodo with the object identifier 10.5281/zenodo.3525366
+https://zenodo.org/record/3525366
 
 
 ## Training data in train/
